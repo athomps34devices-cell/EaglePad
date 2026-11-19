@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "eaglepad",
+  "version": "0.1.0",
+  "name": "EaglePad",
+  "description": "Nintendo controller support for Minecraft Java Edition.",
+  "authors": [
+    "The Nerds Society"
+  ],
+  "contact": {
+    "sources": "https://github.com/"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.nerdssociety.eaglepad.EaglePadClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

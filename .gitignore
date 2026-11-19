@@ -1,0 +1,53 @@
+# Gradle
+.gradle/
+**/.gradle/
+
+# Build output
+build/
+**/build/
+out/
+target/
+
+# Portable development tools
+.tools/
+tools/.tools/
+tools/gradle/
+tools/jdk/
+tools/java/
+
+# Compiled files and packages
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs and crash reports
+*.log
+logs/
+hs_err_pid*
+crash-reports/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
